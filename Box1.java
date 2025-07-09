@@ -1,6 +1,6 @@
 package com.JFS.oopsconcepts;
 
-public class Box {
+public class Box1 {
 	double width;
 	double height;
 	double depth;
@@ -9,5 +9,6 @@ public class Box {
 		System.out.println("The box Height is:"+height);
 		System.out.println("The box depth is:"+depth);
 	}
+
 
 }
