@@ -9,9 +9,12 @@ public class CopyConstuctor {
 			this.height=height;
 			this.depth=depth;
 		}
-		public CopyConstuctor ()
+		public CopyConstuctor (CopyConstuctor obj){
+			this.width=obj.width;
+			this.height=obj.height;
+			this.depth=obj.depth;
 		
-		
+		}
 		public void displayInfo() {
 			System.out.println("The box Width is:"+width);
 			System.out.println("The box Height is:"+height);
